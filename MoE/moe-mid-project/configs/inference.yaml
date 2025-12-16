@@ -1,0 +1,11 @@
+model_name: "MoE-MID"
+image_size: [512, 512]
+num_samples: 1
+num_inference_steps: 50
+guidance_scale: 7.5
+router_model_path: "src/models/router_student.pt"
+base_model_path: "src/models/base_components.py"
+delta_weights:
+  portrait: "configs/portrait_delta.pt"
+  food: "configs/food_delta.pt"
+  landscape: "configs/landscape_delta.pt"

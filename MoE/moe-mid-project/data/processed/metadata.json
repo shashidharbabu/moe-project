@@ -1,0 +1,32 @@
+{
+  "datasets": [
+    {
+      "name": "FFHQ",
+      "num_images": 70000,
+      "image_size": "512x512",
+      "description": "A dataset of high-quality human portraits."
+    },
+    {
+      "name": "Food-101",
+      "num_images": 101000,
+      "image_size": "512x512",
+      "description": "A dataset containing images of food items across 101 categories."
+    },
+    {
+      "name": "Places365",
+      "num_images": 180000,
+      "image_size": "512x512",
+      "description": "A dataset of images from various scenes and landscapes."
+    }
+  ],
+  "processing": {
+    "resize": "512x512",
+    "normalization": {
+      "mean": [0.5, 0.5, 0.5],
+      "std": [0.5, 0.5, 0.5]
+    },
+    "batch_size": 32
+  },
+  "metadata_version": "1.0",
+  "created_at": "2023-10-01T00:00:00Z"
+}

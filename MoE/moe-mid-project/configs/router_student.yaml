@@ -1,0 +1,23 @@
+model:
+  type: TextCNN
+  input_dim: 768
+  hidden_dim: 512
+  output_dim: 3
+  dropout: 0.1
+  activation: GELU
+
+training:
+  batch_size: 32
+  learning_rate: 1e-4
+  num_epochs: 10
+  optimizer: AdamW
+  loss_function: KL_Divergence
+
+data:
+  soft_label_threshold: 0.5
+  dataset_path: ../data/processed/router_student_dataset.json
+
+logging:
+  log_interval: 10
+  save_model: true
+  model_save_path: ../models/router_student.pt

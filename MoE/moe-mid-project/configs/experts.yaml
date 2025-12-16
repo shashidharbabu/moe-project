@@ -1,0 +1,25 @@
+expert_models:
+  portrait:
+    learning_rate: 1e-5
+    batch_size: 16
+    num_epochs: 10
+    weight_decay: 0.01
+    gradient_accumulation_steps: 2
+  food:
+    learning_rate: 1e-5
+    batch_size: 16
+    num_epochs: 10
+    weight_decay: 0.01
+    gradient_accumulation_steps: 2
+  landscape:
+    learning_rate: 1e-5
+    batch_size: 16
+    num_epochs: 10
+    weight_decay: 0.01
+    gradient_accumulation_steps: 2
+
+data:
+  image_size: 512
+  normalization:
+    mean: [0.5, 0.5, 0.5]
+    std: [0.5, 0.5, 0.5]

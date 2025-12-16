@@ -1,0 +1,26 @@
+[tool]
+name = "moe-mid-project"
+version = "0.1.0"
+description = "Mixture-of-Experts for Multi-Image Diffusion (MoE-MID) project"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "torch>=1.9.0",
+    "torchvision",
+    "transformers",
+    "diffusers",
+    "accelerate",
+    "wandb",
+    "opencv-python",
+    "ftfy",
+    "scipy"
+]
+
+[tool.poetry.scripts]
+moe_mid = "src.api.fastapi_app:main"

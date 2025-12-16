@@ -1,0 +1,23 @@
+{
+  "portrait": [
+    "A high-fashion portrait of a woman",
+    "A close-up of a smiling child",
+    "A dramatic black and white portrait of an elderly man",
+    "A portrait of a couple in a romantic setting",
+    "A professional headshot of a businesswoman"
+  ],
+  "food": [
+    "A delicious cheeseburger with fries",
+    "A colorful fruit salad in a bowl",
+    "A gourmet pizza topped with fresh basil",
+    "A beautifully plated sushi dish",
+    "A decadent chocolate cake with strawberries"
+  ],
+  "landscape": [
+    "A breathtaking mountain range at sunset",
+    "A serene beach with crystal clear water",
+    "A lush green forest with a winding path",
+    "A picturesque city skyline at night",
+    "A tranquil lake surrounded by autumn foliage"
+  ]
+}

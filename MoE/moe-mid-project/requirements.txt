@@ -1,0 +1,15 @@
+pytorch
+diffusers
+transformers
+accelerate
+wandb
+opencv-python
+ftfy
+scipy
+blip2
+fastapi
+gradio
+numpy
+scikit-learn
+matplotlib
+seaborn

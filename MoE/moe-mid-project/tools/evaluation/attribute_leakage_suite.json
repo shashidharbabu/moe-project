@@ -1,0 +1,49 @@
+{
+  "tests": [
+    {
+      "prompt": "A high-fashion portrait",
+      "expected_domain": "portrait",
+      "attributes_to_check": [
+        "fashion",
+        "portrait",
+        "style"
+      ]
+    },
+    {
+      "prompt": "A photo of a cheeseburger",
+      "expected_domain": "food",
+      "attributes_to_check": [
+        "food",
+        "cheeseburger",
+        "texture"
+      ]
+    },
+    {
+      "prompt": "A photo of a mountain range",
+      "expected_domain": "landscape",
+      "attributes_to_check": [
+        "landscape",
+        "mountain",
+        "nature"
+      ]
+    },
+    {
+      "prompt": "A person eating at an outdoor cafe",
+      "expected_domain": "food",
+      "attributes_to_check": [
+        "food",
+        "person",
+        "outdoor"
+      ]
+    },
+    {
+      "prompt": "A picnic in a park",
+      "expected_domain": "landscape",
+      "attributes_to_check": [
+        "landscape",
+        "picnic",
+        "nature"
+      ]
+    }
+  ]
+}
